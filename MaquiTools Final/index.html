@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaquiTools</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+          rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header class="cel-info">
+    <a   class="text-contacto" href="https://api.whatsapp.com/send?phone=4461206671"
+    class="btn-wsp" target="blank" id="telefono-1"> Contactanos (+52) 446 120 6671</a>
+
+</header>
+
+                      <!------------- menu ---------------->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="empresa-texto">MaquiTools</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+               data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                     </button>
+                           <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                 <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                   <a class="nav-link" href="#Servicios">Servicios</a>
+                                </li>
+                                <li class="nav-item">
+                                   <a class="nav-link" href="#nosotros">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#galeria">Galería de Imágenes </a>
+                                </li>
+                                <li class="nav-item">
+                                 <a class="nav-link" href="#contacto">Contacto</a>
+                              </li>
+                           </ul>
+                         </div>
+                      </div>
+       </nav>
+                    <!-- slider imagenes-->
+
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+             <div class="carousel-inner">
+               <div class="carousel-item active" data-bs-interval="2500"> <!--Velocidad de las imagenes-->
+                  <img src="Media/CNC1.jpg" class="d-block w-100" alt="">
+               </div>
+          
+ 
+          <div class="carousel-item" data-bs-interval="2500">   <!--Velocidad de las imagenes-->
+                  <img src="Media/Torno CNC3.jpg" class="d-block w-100" alt="">
+          </div>
+ 
+
+           <div class="carousel-item" data-bs-interval="2500">  <!--Velocidad de las imagenes-->
+                 <img src="Media/CNC2.jpg" class="d-block w-100" alt="">
+          </div>
+        </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Next</span>
+          </button>
+      </div>    
+    
+         <!----------descripcion servicios--------->
+
+          <section class="texto-servicios" id="intro-servicios">
+               <h1 class="texto-lema">Maquinados Industriales </h1>
+                <p class="texto-parrafo">
+                   <span id="text-logo">MaquiTools</span> Somos una empresa dedicada
+                   a cubrir los requerimientos de la industria metalmecánica, en cuanto 
+                   a la fabricación, diseño, maquinado y rectificado de piezas.
+              </p>   
+          </section>
+
+            <!---------------------servicios------------->
+
+  <section class="conteiner-fluid"  id="Servicios">
+            <div class="row" class="servicios-fila-1">
+             
+              <!-----------Servicio diseño y fabricacion---------->
+
+              <div class="col-lg-6 col-md-12 col-sm-12" class="iconos-servicios">
+                    <img src="Media/Servicios/Diseño2.jpg" alt="Diseño2"
+                       width="180" height="160">
+                     <div>
+                      <p class="parrafo-servicios">
+                       Diseño y fabricación de <br>herramentales de precisión.
+                     </p>
+                 </div>
+              </div>
+
+              <!----------- servicio rectificado de piezas--------->
+              <div class="col-lg-6 col-md-12 col-sm-12" class="iconos-servicios">
+                       <img src="Media/Servicios/RectificadoPiezas.jpg" alt="RectificadoPiezas"
+                       width="180" height="160">
+                      <div>
+                       <p class="parrafo-servicios">
+                      Rectificado de piezas.
+                   </p>
+                 </div>
+               </div>
+            </div>
+
+                <!---------Reingeniería de mecanismos------------->
+            <div class="row" class="servicios-fila-2">
+                <div class="col-lg-6 col-md-12 col-sm-12" class="iconos-servicios">
+                  <img src="Media/Servicios/Reingenieria2.jpg" alt="Reingenieria2"
+                   width="180" height="160">
+                   <div>
+                    <p class="parrafo-servicios">
+                     Reingeniería de mecanismos.
+                    </p>
+                </div>
+            </div>
+
+             <!-- -------Maquila de piezas de producción------------>
+            <div class="col-lg-6 col-md-12 col-sm-12" class="iconos-servicios">
+                 <img src="Media/Servicios/MaquilaPiezas.jpg" alt="MaquilaPiezas"
+                   width="180" height="160">
+                  <div>
+                   <p class="parrafo-servicios">
+                   Maquila de piezas de producción.
+                  </p>
+               </div>
+              </div>
+           </div>
+
+           <!---------Servicio de campo ------------------>
+           <div class="row" class="servicios-fila-3">
+                 <div class="col-lg-6 col-md-12 col-sm-12" class="iconos-servicios">
+                  <img src="Media/Servicios/Serviciocampo.jpg" alt="Serviciocampo"
+                  width="180" height="160">
+                  <div>
+                  <p class="parrafo-servicios">
+                  Servicio en campo.
+                </p>
+              </div>
+            </div>
+
+                          <!------- Tratamientos termicos----------------->
+            <div class="col-lg-6 col-md-12 col-sm-12" class="iconos-servicios">
+                  <img src="Media/Servicios/Tratamientos3.jpg" alt="Tratamientos3"
+                  width="180" height="160">
+                 <div>
+                  <p class="parrafo-servicios">
+                  Tratamientos Térmicos y Recubrimientos.
+                 </p>
+                 <p id="parrafo-tratamientos"> Contamos con socios comerciales que ofrecen el 
+                    equipo más actualizado y eficaz del mercado para 
+                    el servicio de: Temple al vacío y al alto vacío, 
+                    Cementado, Nitrurado, Pavonado, Zincado, etc.</p> 
+               </div>
+             </div>
+           </div>             
+   </section>
+
+                <!---------- Acerca de Nosotros-->
+  <section>
+     <div class="acerca-nosotros" id="nosotros">
+       <h2 class="empresa-nosotros">MaquiTools<span class="empresa-descripcion"> Actualmente, trabaja 
+        para 3 tipos de sectores automotriz, salud y alimenticio.</span>
+         </h1>
+          <p class="parrafo-nosotros">Es una empresa fundada hace 5 años en el estado de Querétaro,
+             la cual está especializada en maquinado de piezas metalmecánicas 
+             de precisión para el sector industrial.<br/><br/>
+
+            <span class="parrafo-cnc">“Contamos con maquinaria especializada para realizar nuestros procesos, 
+             tales como fresadoras y tornos convencionales, centros de maquinado, 
+             torno CNC, así como el proceso de rectificado de piezas planas y 
+              cilíndricas”. </span> <br/><br/>
+    
+               La compañía trabaja con diferentes tipos de aceros y está ubicada en el 
+              Parque Pyme, Zona del Marques, teniendo una fuerza de producción 
+              importante y equipo de trabajo para atender y cumplir con las necesidades solicitadas.
+            </p>
+          </div>
+   </section>
+
+       <!--------- galeria imagenes--------->
+<section id="galeria">
+  <div>
+     <h2 class="titulo-imagenes">Galería de Imágenes</h2>
+   
+      <div class="imagenes-galeria"> 
+           <img  class="alinear-imagenes" src="Media/Ima8.jpg" alt="">
+          <img  class="alinear-imagenes" src="Media/Ima6.jpeg" alt="">
+          <img  class="alinear-imagenes" src="Media/Ima7.jpeg" alt="">
+          <img  class="alinear-imagenes" src="Media/Ima4.jpeg" alt="">
+          <img  class="alinear-imagenes" src="Media/Ima9.jpeg" alt="">
+          <img  class="alinear-imagenes" src="Media/Ima10.jpeg" alt=""> 
+          <img  class="alinear-imagenes" src="Media/Ima5.jpeg" alt=""> 
+          <img  class="alinear-imagenes" src="Media/Ima3.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+
+ <!-- Contacto seguir haciendo esta seccion-->
+ <section id="contacto">
+  <div>
+     <h2 class="contacto-empresa">Contacto</h2>
+       <p class="parrafo-contacto">
+         Para poder brindarle un mejor servicio y contestar sus dudas de 
+         manera inmediata, por favor llámenos o escríbanos a nuestro correo 
+         electrónico y en breve nos comunicaremos con usted.
+         </p>
+
+          <div class="direccion">
+            <h4>Dirección:</h4>
+            <p>Parque Industrial Pyme, El Marques, Querétaro.</p>
+          </div>
+
+          <div class="telefono">
+            <h4>Teléfono:</h4>
+            <a href="https://api.whatsapp.com/send?phone=4461206671"
+            class="btn-wsp" target="blank" id="telefono-1">+(52) 446 120 6671</a>
+          </div>
+
+        <div class="correo">
+           <h4>Email:</h4>
+           <a href="mailto:maquinadosbjc@gmail.com" id="correo-1">mmaquitools@gmail.com</a>
+        </div>
+
+        <div class="linkedin">
+           <h4>Linkedin:</h4>
+           <a href="https://www.linkedin.com/in/maquitools-s-de-rl-de-cv-3909b1288/" target="_blank" id="linkedin-1">https://www.linkedin.com/in/maquitools-s-de-rl-de-cv-3909b1288/</a>
+        </div>
+      </div>
+  </div> 
+</section>
+
+ <!-- -----------pie de pagina------->
+<footer>
+     <p>&copy; MaquiTools Todos Los Derechos Reservados 2023</p>
+</footer>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
+
+</body>
+</html>
